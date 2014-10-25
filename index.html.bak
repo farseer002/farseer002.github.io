@@ -35,8 +35,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-		<p><a name="testGame" href="http://ben7th.github.io/flappy-html5-bird/">
-		Flappy-bird
+		<p>Flappy-bird<a name="testGame" href="http://ben7th.github.io/flappy-html5-bird/">
 		</a>
 		</p>
       </footer>
