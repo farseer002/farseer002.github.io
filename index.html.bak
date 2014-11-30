@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Blog</title>
+    <title>For test</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/farseer002">View on GitHub</a>
 
-          <h1 id="project_title">Blog</h1>
-          <h2 id="project_tagline">github_io_blog</h2>
+          <h1 id="project_title">Test</h1>
+          <h2 id="project_tagline">just for test</h2>
 
         </header>
     </div>
@@ -35,9 +35,11 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-		<p>Flappy-bird<a name="testGame" href="http://ben7th.github.io/flappy-html5-bird/">
+		<p><a name="testGame" href="http://ben7th.github.io/flappy-html5-bird/">
+		Flappy-bird
 		</a>
 		</p>
+		<p><a name="testJQuery" href="JQueryTest/MD4demo.html"
       </footer>
     </div>
 

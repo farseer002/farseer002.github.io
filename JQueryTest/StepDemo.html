@@ -1,0 +1,57 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>StepDemo</title>
+
+    <link rel="stylesheet" href="StepUI.css" type="text/css" />
+    <link rel="stylesheet" href="ui-themes/smoothness/jquery-ui-1.10.0.custom.css" type="text/css" />
+
+    <script src="jquery.js"></script>
+	<script src="jquery.cookie.js"></script>
+    <script src="jquery.cycle.all.js"></script>
+    <script src="jquery-ui-1.10.0.custom.min.js"></script>
+	<script src="jquery.md5.js"></script>
+	<script src="md4.js"></script>
+    <script src="StepOp.js"></script>  
+  </head>
+  <body>
+    <div id="container">
+	<h1>Step Demo</h1>
+      <ul id="allSteps">
+        <li>
+          <div class="title">消息转二进制并进行初始化工作</div>
+          <div class="opResult" id="step1">
+		  <p id="pstep1">step1</p>
+		  <br />
+		  </div>
+        </li>
+        <li>
+          
+          <div class="title">分组后,与寄存器A,B,C,D进行三轮运算(迭代)</div>
+          <div class="opResult" id="step2">
+		  a = md4_ff(a, b, c, d, x[i+ 0], 3 );
+		  <p>d = md4_ff(d, a, b, c, x[i+ 1], 7 );</p>
+		  <p>c = md4_ff(c, d, a, b, x[i+ 2], 11);</p>
+		  <p>b = md4_ff(b, c, d, a, x[i+ 3], 19);</p>
+		  <p>a = md4_ff(a, b, c, d, x[i+ 4], 3 );</p>
+		  <p>d = md4_ff(d, a, b, c, x[i+ 5], 7 );</p>
+  		  <p>c = md4_ff(c, d, a, b, x[i+ 6], 11);</p>
+		  <p>b = md4_ff(b, c, d, a, x[i+ 7], 19);</p>
+		  
+		  </div>
+        </li>
+        <li>
+          
+          <div class="title">将寄存器结果排列在一起</div>
+          <div class="opResult" id="step3">
+		  <p id="pstep3">Step 3</p>
+		  </div>
+        </li>
+       
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>MD4Demo</title>
+
+    <link rel="stylesheet" href="SimpleUI.css" type="text/css" />
+
+    <script src="jquery.js"></script>
+	<script src="md4.js"></script>
+    <script src="operation.js"></script>  
+  </head>
+  <body>
+    <div id="container">
+	<p class="title" id="MD4Title">MD4 Demo</p>
+
+    <textarea id="originalMsg" placeholder="请输入需要加密的内容:" rows="1em"></textarea>
+	<br />
+
+	<input class="Btn" type="button" id="MD4Encode" value="MD4加密" />
+	<input class="Btn" type="button" id="stepDemo" value="Step" />
+	<br />
+	<p id="collision"></p>
+	<textarea id="afterMsg" placeholder="加密结果:" rows = "5"></textarea>
+	<p>notice:</p>
+	<p id="collisionCase">Bill lent Frank 4585 dollars. Witness is Mike.Num LkCWxx+7d$r¬*_</p>
+	<p id="testP" hidden></p>
+    </div>
+  </body>
+</html>

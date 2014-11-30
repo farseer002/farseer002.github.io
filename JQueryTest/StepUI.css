@@ -1,0 +1,197 @@
+/***************************************
+   Default Styles
+***************************************/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 62.5% Verdana, Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+#container {
+	font-size: 1.2em;
+	margin: 0px auto;
+	width: 800px;
+	overflow: hidden;
+	display: block;
+
+
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: .5em;
+}
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+a {
+  color: #06581f;
+}
+
+
+/***************************************
+   Extra Styles
+***************************************/
+
+ul#allSteps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 410px;
+  width: 500px;
+  overflow: hidden;
+}
+ul#allSteps li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 410px;
+  width: 500px;
+  background-color: #F79321;
+  position: relative;
+}
+
+ul#allSteps li .title {
+  margin-left: 2px;
+  margin-right:2px;
+  padding: 10px;
+  width: 500px;
+  height:100px;
+  font-weight: bold;
+  font-size: 1.8em;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+ul#allSteps li .opResult {
+  margin-left: 0px;
+  padding: 10px 5px 0 5px;
+  width: 500px;
+  height:200px;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: #F79321;
+  color: #fff;
+}
+
+#allSteps-controls {
+  margin: 10px 0;
+  width: 500px;
+}
+#allSteps-controls button {
+  margin: 0 10px 10px 0;
+  float: left;
+}
+#allSteps-controls #slider {
+  clear: left;
+  margin: 10px 0;
+}
+
+h1 {
+  text-align: center;
+  border: 0 solid #fff;
+  width: 500px;
+  margin-bottom: 20px;
+}
+h1.highlighted {
+  border: 10px solid #F79321;
+  padding: 10px;
+  width: 460px;
+  margin-bottom: 0;
+  background-color: #000;
+  color: #F79321;
+}
+
+#allSteps .ui-resizable-s {
+  bottom: 0;
+}
+
+
+.ui-content.title {
+  padding: 10px;
+  margin: 0;
+  width: 280px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  text-shadow: none;
+}
+.ui-content.opResult {
+  padding: 10px;
+  margin: 0;
+  width: 280px;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #F79321;
+  color: #fff;
+  text-shadow: none;
+}
+
+
+
+input.Btn
+{
+	cursor: pointer;
+	padding: 5px;
+	font-size: 15px;
+}
+textarea
+{
+	padding: 5px;
+	font-size: 12px;
+	outline: none;
+	text-shadow: 0px 1px 0px #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+}
+
+textarea:focus
+{
+	border: 1px solid #fafafa;
+	-webkit-box-shadow: 0px 0px 6px #007eff;
+	-moz-box-shadow: 0px 0px 5px #007eff;
+	box-shadow: 0px 0px 5px #007eff;
+}
+textarea::-webkit-input-placeholder
+{
+	color: #999;
+	-webkit-transition: color.5s;
+}
+textarea:focus::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder
+{
+	color: #c2c2c2;
+	-webkit-transition: color.5s;
+}
+body, p
+{
+	text-align: center;
+}
+p.title
+{
+	font-size: 200%;
+	font-weight: bold;
+	font-family: Î¢ÈíÑÅºÚ,ºÚÌå;
+	margin:15px;
+}
